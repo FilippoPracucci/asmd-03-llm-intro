@@ -8,7 +8,8 @@ lazy val root = (project in file("."))
     libraryDependencies += "dev.langchain4j" % "langchain4j" % "1.11.0",
     libraryDependencies += "dev.langchain4j" % "langchain4j-ollama" % "1.11.0",
     libraryDependencies += "dev.langchain4j" % "langchain4j-google-ai-gemini" % "1.11.0",
-
+    libraryDependencies += "dev.langchain4j" % "langchain4j-open-ai" % "1.11.0",
+    libraryDependencies += "org.slf4j" % "slf4j-simple" % "2.0.16",
     libraryDependencies += "com.github.haifengl" %% "smile-scala" % "4.3.0",
     libraryDependencies += "com.github.haifengl" %% "smile-scala" % "4.3.0",
     libraryDependencies += "com.github.haifengl" % "smile-plot" % "4.3.0",
